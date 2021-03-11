@@ -23,19 +23,19 @@ export default function Home() {
             </Head>
 
             <motion.div
-                initial={{ x: '-25vw', y: '10v' }}
-                animate={{ x: '10vw', y: '-25vh' }}
+                initial={{ x: -80, y: -120 }}
+                animate={{ x: 50, y: 85 }}
                 transition={{
                     repeat: Infinity,
                     repeatType: 'reverse',
-                    duration: 10,
+                    duration: 15,
                 }}
                 style={{
                     position: 'absolute',
-                    top: '-25vw',
-                    left: '-25vh',
-                    width: '150vw',
-                    height: '150vh',
+                    top: -80,
+                    left: -120,
+                    width: 'calc(100vw + 200px)',
+                    height: 'calc(100vh + 300px)',
                     backgroundImage:
                         'radial-gradient(circle at 28% 68%, hsl(317.23,100%,81.57%) 0%, hsl(60,100%,96.08%) 57%)',
                     zIndex: -1,
