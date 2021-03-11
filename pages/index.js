@@ -18,9 +18,10 @@ export default function Home() {
             }}
         >
             <Head>
-                <title>🚲 bloody average 🚲</title>
+                <title>🚲 Bloody Average ⛳️</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
+
             <motion.div
                 initial={{ x: '-25vw', y: '10v' }}
                 animate={{ x: '10vw', y: '-25vh' }}
